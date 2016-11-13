@@ -13,6 +13,7 @@
 		22B84B611DD694E200EA7C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B84B5F1DD694E200EA7C1F /* Main.storyboard */; };
 		22B84B631DD694E200EA7C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B84B621DD694E200EA7C1F /* Assets.xcassets */; };
 		22B84B661DD694E200EA7C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B84B641DD694E200EA7C1F /* LaunchScreen.storyboard */; };
+		22B84B6F1DD6992100EA7C1F /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B84B6E1DD6992100EA7C1F /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		22B84B621DD694E200EA7C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B84B651DD694E200EA7C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B84B671DD694E200EA7C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B84B6D1DD6992100EA7C1F /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		22B84B6E1DD6992100EA7C1F /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				22B84B5A1DD694E200EA7C1F /* AppDelegate.m */,
 				22B84B5C1DD694E200EA7C1F /* ViewController.h */,
 				22B84B5D1DD694E200EA7C1F /* ViewController.m */,
+				22B84B6D1DD6992100EA7C1F /* DrawingView.h */,
+				22B84B6E1DD6992100EA7C1F /* DrawingView.m */,
 				22B84B5F1DD694E200EA7C1F /* Main.storyboard */,
 				22B84B621DD694E200EA7C1F /* Assets.xcassets */,
 				22B84B641DD694E200EA7C1F /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				22B84B5E1DD694E200EA7C1F /* ViewController.m in Sources */,
 				22B84B5B1DD694E200EA7C1F /* AppDelegate.m in Sources */,
 				22B84B581DD694E200EA7C1F /* main.m in Sources */,
+				22B84B6F1DD6992100EA7C1F /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
